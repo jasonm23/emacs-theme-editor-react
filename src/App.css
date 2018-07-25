@@ -1,0 +1,243 @@
+@import url('//fonts.googleapis.com/css?family=Oswald');
+
+.navbar-brand {
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+}
+
+footer {
+  margin-top:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#000000;
+  color: white;
+}
+
+pre {
+  border: inherit;
+  border-radius: inherit;
+  color: inherit;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+
+}
+
+.color-controls-panel {
+  padding: 0px;
+}
+
+.color-controls-panel li.padded {
+  padding: 10px 8px 10px 8px;
+}
+
+.color-controls-panel li.padded .form-group {
+  margin: 0;
+}
+
+.color-controls-panel ul li {
+
+}
+
+.code-panel {
+  padding: 0;
+}
+
+.color-group {
+  margin: 0;
+}
+
+.side-label {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  float: left;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.color-group label {
+  display: block;
+  text-transform: lowercase;
+  background-color: rgba(0,0,0,0.07);
+  width: 100%;
+  padding: 5px;
+  float: left;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#action-bar {
+}
+
+
+label {
+  font-weight: normal;
+}
+
+.modeline {
+  padding: 1px 0 0 0;
+  margin: 0 0 0 -5px;
+}
+
+.modeline-text {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.prompt {
+  padding: 3px 0px 2px 5px;
+  margin: 0 0 0 -5px;
+  border: none;
+}
+
+.navbar-inverse {
+  background-color: #0F1411 !important;
+}
+
+#code-sample {
+  border-left: 5px solid;
+  padding: 0;
+}
+
+.sp-replacer {
+  padding: 0;
+  border: none !important;
+  float: right;
+  margin-top: -28px;
+  display: inline;
+}
+
+.sp-preview {
+  width: 40px;
+  height: 23px;
+  border-radius: 23px;
+  border: none;
+}
+.sp-preview-inner {
+  border-radius: 23px;
+  border: 1px solid rgba(128,128,128,0.5);
+}
+
+.sp-container {
+}
+
+.sp-button-container {
+  margin-top: 6px;
+}
+
+button.sp-cancel {
+  background-image: linear-gradient(#FF5454, #710000);
+  color: white !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  text-decoration: none !important;
+}
+
+button.sp-cancel:hover {
+  text-decoration: none !important;
+}
+
+.user-theme-removal-icon {
+  top: 4px;
+  right: -5px;
+  color: darkred;
+  float: right;
+  cursor: arrow;
+}
+
+#user-themes li {
+}
+
+#theme-generated pre {
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+code {
+  color: darkslategray;
+}
+
+.emacs-action {
+  font-size: 120%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.emacs-action .emacs-prompt {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.emacs-action code {
+  background-color: transparent;
+  color: lightgray;
+}
+
+kbd {
+  background-color: white;
+  padding: 1px 3px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.23);
+}
+
+.decorative-heading {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+}
+
+#github-banner {
+  height: 149px;
+  width: 149px;
+  overflow:hidden;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+}
+
+#github-banner a {
+  display: block;
+  width: 190px;
+  font-size: 14px;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT",
+  "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma,
+  Geneva, "Helvetica Neue", Helvetica, Arial, sans serif;
+  background-color: #333;
+  color: #FFF;
+  word-spacing: 2px;
+  text-decoration: none;
+  padding: 5px 15px 5px 25px;
+
+  position:relative;
+  right: -36px;
+  top: -29px;
+  text-align: center;
+
+  transform-origin: 0 0 ;
+  transform:rotate(45deg);
+  /* box-shadow: 1px 1px 5px 1px #666; */
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.03, #000000),
+    color-stop(0.05, #DDDDDD),
+    color-stop(0.07, #000000),
+    color-stop(0.93, #000000),
+    color-stop(0.95, #DDDDDD),
+    color-stop(0.97, #000000)
+  );
+}
